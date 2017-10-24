@@ -14,3 +14,7 @@ var ninjaBabySelector= function(){
 var divSelector = function(){
   return $('div').slice(0,2);
 }
+
+var firstListItem = function(){
+  return $('li ul:first-child');
+}
